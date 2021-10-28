@@ -1,0 +1,27 @@
+table{
+    width: 100%;
+}
+table, th, td{
+    border:1px solid black;
+    border-collapse: collapse;
+    /* border-spacing: 19px; */
+    padding: 5px;
+}
+caption{
+    color:brown;
+    font-family: 'trocchi', serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+th{
+    color: chocolate;
+    background-color: cornflowerblue;
+}
+/* renglones pares */
+tr:nth-child(even){
+    background-color: darkgray;
+}
+/* renglones impares */
+tr:nth-child(odd){
+    background-color:darkseagreen;
+}

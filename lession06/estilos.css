@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;;
+}
+h1{
+    color: red;
+    text-align: center;
+    margin: 10px;
+}
+
+h2{
+    color: firebrick;
+}
+p{
+    color: gray;
+}
+/* div{
+    border: 10px solid #C655CA;
+    background-color: yellowgreen;
+    text-align: center;
+} */
+.target{
+    border: 10px solid #C655CA;
+    background-color: yellowgreen;
+    text-align: center;
+    margin: 15px 100px;
+    padding: 15px;
+}
+.titulo{
+    color: #f3f3f3;
+}
